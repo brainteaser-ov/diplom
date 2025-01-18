@@ -77,36 +77,12 @@ print(f"Probability of the two sequences being similar: {probability:.4f}")
 ```
 git clone git@github.com:{name}}/{name}
 ```
-#### Переименовать [.env.sample](https://github.com/amanita-bad/Async_API_sprint_2/blob/main/.env_sample) в .env и добавить переменные окружения:
 
-| KEY               | VALUE |
-|-------------------|-------|
-| POSTGRES_NAME     | ***   |
-| POSTGRES_USER     | ***   |
-| POSTGRES_PASSWORD | ***   |
-| POSTGRES_HOST     | ***   |
-| POSTGRES_PORT     | ***   |
-| es_host           | ***   |
-| es_port           | ***   |
-| m_index           | ***   |
-| p_index           | ***   |
-| g_index           | ***   |
-| project_name      | ***   |
-| REDIS_HOST        | ***   |
-| REDIS_PORT        | ***   |
-| api_host          | ***   |
-| api_port          | ***   |
+#### Запустить docker-compose в папке [flask_cognates](https://github.com/brainteaser-ov/diplom/blob/main/positive_test.txt) docker-compose:
 
-#### Запустить docker-compose в папке [fastapi-solution](https://github.com/amanita-bad/Async_API_sprint_2/tree/main/fastapi-solution) docker-compose:
-
-##### запуск API
 ```
 docker-compose -f docker-compose-main.yml up -d --build 
 
-```
-#### запуск тестов
-```
-docker-compose up -d --build && docker-compose logs -f tests 
 ```
 
 #### Стек
