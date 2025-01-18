@@ -110,12 +110,8 @@ docker-compose up -d --build && docker-compose logs -f tests
 ```
 
 #### Стек
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
-![ElasticSearch](https://img.shields.io/badge/-ElasticSearch-005571?style=for-the-badge&logo=elasticsearch)
-![Pytest](https://img.shields.io/badge/pytest-%23316192.svg?style=for-the-badge&logo=pytest&logoColor=green) 
-![Redis](https://img.shields.io/badge/redis-%23316192.svg?style=for-the-badge&logo=redis&logoColor=violet) 
-#### [Документация](http://localhost:8000/api/openapi) к проекту
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 
 #### Directed by 
 
