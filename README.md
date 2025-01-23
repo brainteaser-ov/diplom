@@ -77,12 +77,6 @@ print(f"Probability of the two sequences being similar: {probability:.4f}")
 git clone git@github.com:{name}}/{name}
 ```
 
-#### Запустить docker-compose в папке [flask_cognates](https://github.com/brainteaser-ov/diplom/blob/main/positive_test.txt) docker-compose:
-
-```
-docker-compose -f docker-compose-main.yml up -d --build 
-
-```
 
 #### Стек
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
