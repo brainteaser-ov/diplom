@@ -40,7 +40,7 @@
 </p>
 
 > код модели запущен при помощи приложения Flask с использованием виртуальной машины Яндекс <br>
-> для запуска используется nginx и gunicorn <br>
+> для запуска используется HTTP-сервер nginx и WSGI-сервер Gunicorn <br>
 > бесплатный ip получен на [noip.com](https://www.noip.com) <br>
 > SSL-сертификат безопасности получен при помощи [certbot](https://certbot.eff.org/instructions?ws=nginx&os=ubuntufocal) <br>
 
