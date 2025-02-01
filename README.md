@@ -19,6 +19,8 @@
 
 > [!IMPORTANT]
 > При первоначальном обучении точность модели на тестовом датасете получилась довольно низкая (62%), поэтому был создан [новый датасет](https://github.com/brainteaser-ov/diplom/blob/main/all_texts.txt)), включающий 200 тыс. записей и состоящий из пар слов с переводами, дообучение модели реализовано в [файле](https://github.com/brainteaser-ov/diplom/blob/main/torch_cognates2.ipynb) и новая [модель](https://github.com/brainteaser-ov/diplom/blob/main/model_full.pth) показывает более высокие результаты (около 90%).
+>
+> ссылка на презентацию https://disk.yandex.ru/i/_QxDVa_RgZ_Thw
 
 
 ## Запущенная [модель](https://cognates.hopto.org)
